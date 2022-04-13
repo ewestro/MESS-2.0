@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>810</width>
-    <height>728</height>
+    <width>797</width>
+    <height>744</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>730</x>
-      <y>0</y>
+      <y>10</y>
       <width>31</width>
       <height>591</height>
      </rect>
@@ -30,14 +30,17 @@
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="enter">
     <property name="geometry">
      <rect>
-      <x>720</x>
+      <x>730</x>
       <y>630</y>
       <width>51</width>
       <height>51</height>
      </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: #dedebe</string>
@@ -46,10 +49,10 @@
      <string>отпр</string>
     </property>
    </widget>
-   <widget class="QToolButton" name="toolButton">
+   <widget class="QToolButton" name="more">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>10</x>
       <y>630</y>
       <width>51</width>
       <height>51</height>
@@ -62,11 +65,11 @@
      <string>...</string>
     </property>
    </widget>
-   <widget class="QToolButton" name="toolButton_3">
+   <widget class="QToolButton" name="settings">
     <property name="geometry">
      <rect>
       <x>660</x>
-      <y>0</y>
+      <y>10</y>
       <width>51</width>
       <height>51</height>
      </rect>
@@ -75,13 +78,13 @@
      <string notr="true">background-color: #339966</string>
     </property>
     <property name="text">
-     <string>...</string>
+     <string>settings</string>
     </property>
    </widget>
-   <widget class="QToolButton" name="toolButton_2">
+   <widget class="QToolButton" name="stickers">
     <property name="geometry">
      <rect>
-      <x>660</x>
+      <x>670</x>
       <y>630</y>
       <width>51</width>
       <height>51</height>
@@ -94,10 +97,10 @@
      <string>смайлик</string>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="textBrowser">
+   <widget class="QTextBrowser" name="text_space">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>70</x>
       <y>630</y>
       <width>591</width>
       <height>51</height>
@@ -127,11 +130,11 @@ p, li { white-space: pre-wrap; }
      <string notr="true">background-color: #faf4ff;</string>
     </property>
    </widget>
-   <widget class="QToolButton" name="toolButton_4">
+   <widget class="QToolButton" name="search">
     <property name="geometry">
      <rect>
       <x>660</x>
-      <y>60</y>
+      <y>70</y>
       <width>51</width>
       <height>51</height>
      </rect>
@@ -143,11 +146,11 @@ p, li { white-space: pre-wrap; }
      <string>поиск</string>
     </property>
    </widget>
-   <widget class="QToolButton" name="toolButton_5">
+   <widget class="QToolButton" name="back">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
+      <x>10</x>
+      <y>10</y>
       <width>51</width>
       <height>51</height>
      </rect>
@@ -165,7 +168,7 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>810</width>
+     <width>797</width>
      <height>21</height>
     </rect>
    </property>
