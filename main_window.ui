@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>797</width>
+    <width>795</width>
     <height>744</height>
    </rect>
   </property>
@@ -46,7 +46,17 @@
      <string notr="true">background-color: #dedebe</string>
     </property>
     <property name="text">
-     <string>отпр</string>
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Desktop/отправить.png</normaloff>../../Desktop/отправить.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>35</width>
+      <height>35</height>
+     </size>
     </property>
    </widget>
    <widget class="QToolButton" name="more">
@@ -78,7 +88,17 @@
      <string notr="true">background-color: #339966</string>
     </property>
     <property name="text">
-     <string>settings</string>
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Desktop/настройки.png</normaloff>../../Desktop/настройки.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
     </property>
    </widget>
    <widget class="QToolButton" name="stickers">
@@ -95,6 +115,16 @@
     </property>
     <property name="text">
      <string>смайлик</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Desktop/смайлик.png</normaloff>../../Desktop/смайлик.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
     </property>
    </widget>
    <widget class="QTextBrowser" name="text_space">
@@ -143,7 +173,17 @@ p, li { white-space: pre-wrap; }
      <string notr="true">background-color: #ffff99</string>
     </property>
     <property name="text">
-     <string>поиск</string>
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Desktop/поиск.png</normaloff>../../Desktop/поиск.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
     </property>
    </widget>
    <widget class="QToolButton" name="back">
@@ -161,6 +201,16 @@ p, li { white-space: pre-wrap; }
     <property name="text">
      <string>назад</string>
     </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Desktop/нар.png</normaloff>../../Desktop/нар.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -168,7 +218,7 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>797</width>
+     <width>795</width>
      <height>21</height>
     </rect>
    </property>
