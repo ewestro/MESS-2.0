@@ -17,7 +17,7 @@
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: #4efeb3</string>
+   <string notr="true">background-color: #a6ffff</string>
   </property>
   <property name="sizeGripEnabled">
    <bool>false</bool>
@@ -32,7 +32,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #ccffff</string>
+    <string notr="true">background-color: #dedebe</string>
    </property>
    <property name="text">
     <string>отпр</string>
@@ -164,7 +164,7 @@ p, li { white-space: pre-wrap; }
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #ccff99;</string>
+    <string notr="true">background-color: #faf4ff;</string>
    </property>
   </widget>
  </widget>
