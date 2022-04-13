@@ -56,7 +56,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Desktop/отправить.png</normaloff>../../Desktop/отправить.png</iconset>
+      <normaloff>../../Downloads/jnghfdrffffffffffff.png</normaloff>../../Downloads/jnghfdrffffffffffff.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -85,7 +85,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Desktop/hthghghfg.png</normaloff>../../Desktop/hthghghfg.png</iconset>
+      <normaloff>../../Downloads/3176229.png</normaloff>../../Downloads/3176229.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -114,7 +114,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Desktop/настройки.png</normaloff>../../Desktop/настройки.png</iconset>
+      <normaloff>../../Downloads/263074.png</normaloff>../../Downloads/263074.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -143,7 +143,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Desktop/смайлик.png</normaloff>../../Desktop/смайлик.png</iconset>
+      <normaloff>../../Downloads/3483089.png</normaloff>../../Downloads/3483089.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -220,7 +220,7 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Desktop/поиск.png</normaloff>../../Desktop/поиск.png</iconset>
+      <normaloff>../../Downloads/save.png</normaloff>../../Downloads/save.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -252,12 +252,12 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Desktop/нар.png</normaloff>../../Desktop/нар.png</iconset>
+      <normaloff>../../Downloads/93634.png</normaloff>../../Downloads/93634.png</iconset>
     </property>
     <property name="iconSize">
      <size>
-      <width>50</width>
-      <height>50</height>
+      <width>40</width>
+      <height>40</height>
      </size>
     </property>
    </widget>
