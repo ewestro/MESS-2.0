@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>747</width>
-    <height>744</height>
+    <width>728</width>
+    <height>736</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QScrollBar" name="verticalScrollBar">
+   <widget class="QScrollBar" name="vsb">
     <property name="geometry">
      <rect>
       <x>680</x>
@@ -137,7 +137,7 @@
      </size>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="text_space">
+   <widget class="QTextBrowser" name="text_spase">
     <property name="geometry">
      <rect>
       <x>70</x>
@@ -157,7 +157,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QListWidget" name="listWidget">
+   <widget class="QListWidget" name="list">
     <property name="geometry">
      <rect>
       <x>70</x>
@@ -228,7 +228,7 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>747</width>
+     <width>728</width>
      <height>21</height>
     </rect>
    </property>
