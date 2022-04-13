@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>728</width>
-    <height>736</height>
+    <height>734</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -56,7 +56,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Downloads/jnghfdrffffffffffff.png</normaloff>../../Downloads/jnghfdrffffffffffff.png</iconset>
+      <normaloff>icons/jnghfdrffffffffffff.png</normaloff>icons/jnghfdrffffffffffff.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -69,36 +69,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>120</y>
-      <width>51</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: #dcdcdc</string>
-    </property>
-    <property name="text">
-     <string>...</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../../Downloads/3176229.png</normaloff>../../Downloads/3176229.png</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>35</width>
-      <height>35</height>
-     </size>
-    </property>
-   </widget>
-   <widget class="QToolButton" name="settings">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>190</y>
+      <y>110</y>
       <width>51</width>
       <height>51</height>
      </rect>
@@ -114,7 +85,36 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Downloads/263074.png</normaloff>../../Downloads/263074.png</iconset>
+      <normaloff>icons/3176229.png</normaloff>icons/3176229.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>35</width>
+      <height>35</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="settings">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dcdcdc</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/263074.png</normaloff>icons/263074.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -139,11 +139,11 @@
      <string notr="true">background-color: #ffcc99</string>
     </property>
     <property name="text">
-     <string>смайлик</string>
+     <string/>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Downloads/3483089.png</normaloff>../../Downloads/3483089.png</iconset>
+      <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -204,7 +204,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>260</y>
+      <y>250</y>
       <width>51</width>
       <height>51</height>
      </rect>
@@ -220,7 +220,7 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Downloads/save.png</normaloff>../../Downloads/save.png</iconset>
+      <normaloff>icons/save.png</normaloff>icons/save.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -248,11 +248,11 @@ p, li { white-space: pre-wrap; }
      <string notr="true">background-color: #ccffff</string>
     </property>
     <property name="text">
-     <string>назад</string>
+     <string/>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Downloads/93634.png</normaloff>../../Downloads/93634.png</iconset>
+      <normaloff>icons/93634.png</normaloff>icons/93634.png</iconset>
     </property>
     <property name="iconSize">
      <size>
