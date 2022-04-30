@@ -231,15 +231,28 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
+        <normaloff>icons/emoji/lunaVK_010.png</normaloff>icons/emoji/lunaVK_010.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -262,15 +275,27 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
+        <normaloff>icons/emoji/lunaVK_011.png</normaloff>icons/emoji/lunaVK_011.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -293,15 +318,28 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
+        <normaloff>icons/emoji/lunaVK_013.png</normaloff>icons/emoji/lunaVK_013.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -324,11 +362,27 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+</string>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>icons/emoji/lunaVK_002.png</normaloff>icons/emoji/lunaVK_002.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -351,15 +405,28 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
+        <normaloff>icons/emoji/lunaVK_005.png</normaloff>icons/emoji/lunaVK_005.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -382,15 +449,28 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
+        <normaloff>icons/emoji/lunaVK_006.png</normaloff>icons/emoji/lunaVK_006.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -413,15 +493,28 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
+        <normaloff>icons/emoji/lunaVK_026 (1).png</normaloff>icons/emoji/lunaVK_026 (1).png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -444,15 +537,28 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
+        <normaloff>icons/emoji/lunaVK_048.png</normaloff>icons/emoji/lunaVK_048.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -475,15 +581,28 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
+        <normaloff>icons/emoji/lunaVK_001.png</normaloff>icons/emoji/lunaVK_001.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -506,15 +625,28 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
+        <normaloff>icons/emoji/lunaVK_044.png</normaloff>icons/emoji/lunaVK_044.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -537,15 +669,28 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
+        <normaloff>icons/emoji/lunaVK_033.png</normaloff>icons/emoji/lunaVK_033.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -568,15 +713,28 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
+        <normaloff>icons/emoji/lunaVK_007.png</normaloff>icons/emoji/lunaVK_007.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -599,15 +757,28 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
+        <normaloff>icons/emoji/lunaVK_015.png</normaloff>icons/emoji/lunaVK_015.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -630,15 +801,28 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
+        <normaloff>icons/emoji/lunaVK_018.png</normaloff>icons/emoji/lunaVK_018.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -661,15 +845,29 @@ QPushButton:pressed{
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-	border: none;
-}</string>
+    border: none;
+	color:#c4c5ff;
+	border-radius: 7px;
+	background-color: rgb(85, 255, 127);
+}
+
+QPushButton:hover{
+	background-color: rgb(85, 255, 0);
+}
+
+QPushButton:pressed{
+	background-color: rgb(57, 172, 0);
+}
+
+
+</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/3483089.png</normaloff>icons/3483089.png</iconset>
+        <normaloff>icons/emoji/lunaVK_014.png</normaloff>icons/emoji/lunaVK_014.png</iconset>
       </property>
       <property name="iconSize">
        <size>
