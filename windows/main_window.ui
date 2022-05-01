@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>850</width>
-    <height>531</height>
+    <height>560</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>10</x>
       <y>10</y>
       <width>831</width>
-      <height>511</height>
+      <height>541</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -39,7 +39,7 @@
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>360</y>
+       <y>390</y>
        <width>531</width>
        <height>41</height>
       </rect>
@@ -73,7 +73,7 @@
      <property name="geometry">
       <rect>
        <x>560</x>
-       <y>410</y>
+       <y>440</y>
        <width>261</width>
        <height>41</height>
       </rect>
@@ -115,7 +115,7 @@ QPushButton:pressed{
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>410</y>
+       <y>440</y>
        <width>261</width>
        <height>41</height>
       </rect>
@@ -157,7 +157,7 @@ QPushButton:pressed{
      <property name="geometry">
       <rect>
        <x>560</x>
-       <y>460</y>
+       <y>490</y>
        <width>261</width>
        <height>41</height>
       </rect>
@@ -199,7 +199,7 @@ QPushButton:pressed{
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>10</y>
+       <y>40</y>
        <width>271</width>
        <height>491</height>
       </rect>
@@ -221,7 +221,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>130</y>
+        <y>150</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -252,7 +252,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_010.png</normaloff>icons/emoji/lunaVK_010.png</iconset>
+        <normaloff>../icons/emoji/lunaVK_010.png</normaloff>../icons/emoji/lunaVK_010.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -265,7 +265,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>100</x>
-        <y>130</y>
+        <y>150</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -295,7 +295,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_011.png</normaloff>icons/emoji/lunaVK_011.png</iconset>
+        <normaloff>../icons/emoji/lunaVK_011.png</normaloff>../icons/emoji/lunaVK_011.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -308,7 +308,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>190</x>
-        <y>130</y>
+        <y>150</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -339,7 +339,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_013.png</normaloff>icons/emoji/lunaVK_013.png</iconset>
+        <normaloff>../icons/emoji/lunaVK_013.png</normaloff>../icons/emoji/lunaVK_013.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -352,7 +352,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>50</y>
+        <y>70</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -382,7 +382,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_002.png</normaloff>icons/emoji/lunaVK_002.png</iconset>
+        <normaloff>../icons/emoji/lunaVK_002.png</normaloff>../icons/emoji/lunaVK_002.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -395,7 +395,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>100</x>
-        <y>50</y>
+        <y>70</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -426,7 +426,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_005.png</normaloff>icons/emoji/lunaVK_005.png</iconset>
+        <normaloff>../icons/emoji/lunaVK_005.png</normaloff>../icons/emoji/lunaVK_005.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -439,7 +439,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>190</x>
-        <y>50</y>
+        <y>70</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -470,7 +470,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_006.png</normaloff>icons/emoji/lunaVK_006.png</iconset>
+        <normaloff>../icons/emoji/lunaVK_006.png</normaloff>../icons/emoji/lunaVK_006.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -483,7 +483,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>210</y>
+        <y>230</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -514,7 +514,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_026 (1).png</normaloff>icons/emoji/lunaVK_026 (1).png</iconset>
+        <normaloff>../icons/emoji/lunaVK_026 (1).png</normaloff>../icons/emoji/lunaVK_026 (1).png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -527,7 +527,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>290</y>
+        <y>310</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -558,7 +558,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_048.png</normaloff>icons/emoji/lunaVK_048.png</iconset>
+        <normaloff>../icons/emoji/lunaVK_048.png</normaloff>../icons/emoji/lunaVK_048.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -571,7 +571,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>100</x>
-        <y>290</y>
+        <y>310</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -602,7 +602,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_001.png</normaloff>icons/emoji/lunaVK_001.png</iconset>
+        <normaloff>../icons/emoji/lunaVK_001.png</normaloff>../icons/emoji/lunaVK_001.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -615,7 +615,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>190</x>
-        <y>210</y>
+        <y>230</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -646,7 +646,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_044.png</normaloff>icons/emoji/lunaVK_044.png</iconset>
+        <normaloff>../icons/emoji/lunaVK_044.png</normaloff>../icons/emoji/lunaVK_044.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -659,7 +659,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>100</x>
-        <y>210</y>
+        <y>230</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -690,7 +690,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_033.png</normaloff>icons/emoji/lunaVK_033.png</iconset>
+        <normaloff>../icons/emoji/lunaVK_033.png</normaloff>../icons/emoji/lunaVK_033.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -703,7 +703,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>190</x>
-        <y>290</y>
+        <y>310</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -734,7 +734,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_007.png</normaloff>icons/emoji/lunaVK_007.png</iconset>
+        <normaloff>../icons/emoji/lunaVK_007.png</normaloff>../icons/emoji/lunaVK_007.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -747,7 +747,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>370</y>
+        <y>390</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -778,7 +778,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_015.png</normaloff>icons/emoji/lunaVK_015.png</iconset>
+        <normaloff>../icons/emoji/lunaVK_015.png</normaloff>../icons/emoji/lunaVK_015.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -791,7 +791,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>100</x>
-        <y>370</y>
+        <y>390</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -822,7 +822,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_018.png</normaloff>icons/emoji/lunaVK_018.png</iconset>
+        <normaloff>../icons/emoji/lunaVK_018.png</normaloff>../icons/emoji/lunaVK_018.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -835,7 +835,7 @@ QPushButton:pressed{
       <property name="geometry">
        <rect>
         <x>190</x>
-        <y>370</y>
+        <y>390</y>
         <width>71</width>
         <height>71</height>
        </rect>
@@ -867,7 +867,7 @@ QPushButton:pressed{
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/emoji/lunaVK_014.png</normaloff>icons/emoji/lunaVK_014.png</iconset>
+        <normaloff>../icons/emoji/lunaVK_014.png</normaloff>../icons/emoji/lunaVK_014.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -907,7 +907,7 @@ QPushButton:pressed{
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>460</y>
+       <y>490</y>
        <width>261</width>
        <height>41</height>
       </rect>
@@ -949,7 +949,7 @@ QPushButton:pressed{
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>10</y>
+       <y>40</y>
        <width>531</width>
        <height>341</height>
       </rect>
@@ -1042,6 +1042,112 @@ background-color: #1d5e0e;
      <property name="sortingEnabled">
       <bool>false</bool>
      </property>
+    </widget>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>831</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	background-color: ;
+	background-color: rgb(85, 170, 0);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>0</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	color: white;
+	border: none;
+	border-top-right-radius: 7px;
+	background-color:  rgb(62, 125, 0);
+}
+
+QPushButton:hover{
+	background-color: rgb(47, 94, 0);
+}
+
+QPushButton:pressed{
+	color: rgb(31, 63, 0);
+}</string>
+      </property>
+      <property name="text">
+       <string>X</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>0</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	color: white;
+	border: none;
+	
+	background-color: ;
+	background-color: rgb(62, 125, 0);
+}
+
+QPushButton:hover{
+	background-color: rgb(47, 94, 0);
+}
+
+QPushButton:pressed{
+	color: rgb(31, 63, 0);
+}</string>
+      </property>
+      <property name="text">
+       <string>_</string>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
