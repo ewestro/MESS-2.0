@@ -14,11 +14,11 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(850, 531)
+        MainWindow.resize(850, 560)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.frame = QtWidgets.QFrame(self.centralwidget)
-        self.frame.setGeometry(QtCore.QRect(10, 10, 831, 511))
+        self.frame.setGeometry(QtCore.QRect(10, 10, 831, 541))
         self.frame.setStyleSheet("QFrame{\n"
 "    border-radius: 7px;\n"
 "    background-color: #0f3008;\n"
@@ -27,7 +27,7 @@ class Ui_MainWindow(object):
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
         self.lineEdit = QtWidgets.QLineEdit(self.frame)
-        self.lineEdit.setGeometry(QtCore.QRect(290, 360, 531, 41))
+        self.lineEdit.setGeometry(QtCore.QRect(290, 390, 531, 41))
         font = QtGui.QFont()
         font.setPointSize(11)
         font.setBold(True)
@@ -41,7 +41,7 @@ class Ui_MainWindow(object):
         self.lineEdit.setClearButtonEnabled(True)
         self.lineEdit.setObjectName("lineEdit")
         self.pushButton = QtWidgets.QPushButton(self.frame)
-        self.pushButton.setGeometry(QtCore.QRect(560, 410, 261, 41))
+        self.pushButton.setGeometry(QtCore.QRect(560, 440, 261, 41))
         font = QtGui.QFont()
         font.setPointSize(11)
         font.setBold(True)
@@ -66,7 +66,7 @@ class Ui_MainWindow(object):
         self.pushButton.setIcon(icon)
         self.pushButton.setObjectName("pushButton")
         self.pushButton_2 = QtWidgets.QPushButton(self.frame)
-        self.pushButton_2.setGeometry(QtCore.QRect(290, 410, 261, 41))
+        self.pushButton_2.setGeometry(QtCore.QRect(290, 440, 261, 41))
         font = QtGui.QFont()
         font.setPointSize(11)
         font.setBold(True)
@@ -91,7 +91,7 @@ class Ui_MainWindow(object):
         self.pushButton_2.setIcon(icon1)
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_4 = QtWidgets.QPushButton(self.frame)
-        self.pushButton_4.setGeometry(QtCore.QRect(560, 460, 261, 41))
+        self.pushButton_4.setGeometry(QtCore.QRect(560, 490, 261, 41))
         font = QtGui.QFont()
         font.setPointSize(11)
         font.setBold(True)
@@ -116,7 +116,7 @@ class Ui_MainWindow(object):
         self.pushButton_4.setIcon(icon2)
         self.pushButton_4.setObjectName("pushButton_4")
         self.frame_4 = QtWidgets.QFrame(self.frame)
-        self.frame_4.setGeometry(QtCore.QRect(10, 10, 271, 491))
+        self.frame_4.setGeometry(QtCore.QRect(10, 40, 271, 491))
         self.frame_4.setStyleSheet("QFrame{\n"
 "    color: white;\n"
 "    border-radius: 7px;\n"
@@ -126,7 +126,7 @@ class Ui_MainWindow(object):
         self.frame_4.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_4.setObjectName("frame_4")
         self.pushButton_6 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_6.setGeometry(QtCore.QRect(10, 130, 71, 71))
+        self.pushButton_6.setGeometry(QtCore.QRect(10, 150, 71, 71))
         self.pushButton_6.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_6.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -146,12 +146,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_6.setText("")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_010.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon3.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_010.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_6.setIcon(icon3)
         self.pushButton_6.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_6.setObjectName("pushButton_6")
         self.pushButton_8 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_8.setGeometry(QtCore.QRect(100, 130, 71, 71))
+        self.pushButton_8.setGeometry(QtCore.QRect(100, 150, 71, 71))
         self.pushButton_8.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_8.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -170,12 +170,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_8.setText("")
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_011.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon4.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_011.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_8.setIcon(icon4)
         self.pushButton_8.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_8.setObjectName("pushButton_8")
         self.pushButton_9 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_9.setGeometry(QtCore.QRect(190, 130, 71, 71))
+        self.pushButton_9.setGeometry(QtCore.QRect(190, 150, 71, 71))
         self.pushButton_9.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_9.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -195,12 +195,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_9.setText("")
         icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_013.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon5.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_013.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_9.setIcon(icon5)
         self.pushButton_9.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_9.setObjectName("pushButton_9")
         self.pushButton_10 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_10.setGeometry(QtCore.QRect(10, 50, 71, 71))
+        self.pushButton_10.setGeometry(QtCore.QRect(10, 70, 71, 71))
         self.pushButton_10.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_10.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -219,12 +219,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_10.setText("")
         icon6 = QtGui.QIcon()
-        icon6.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_002.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon6.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_002.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_10.setIcon(icon6)
         self.pushButton_10.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_10.setObjectName("pushButton_10")
         self.pushButton_11 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_11.setGeometry(QtCore.QRect(100, 50, 71, 71))
+        self.pushButton_11.setGeometry(QtCore.QRect(100, 70, 71, 71))
         self.pushButton_11.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_11.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -244,12 +244,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_11.setText("")
         icon7 = QtGui.QIcon()
-        icon7.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_005.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon7.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_005.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_11.setIcon(icon7)
         self.pushButton_11.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_11.setObjectName("pushButton_11")
         self.pushButton_12 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_12.setGeometry(QtCore.QRect(190, 50, 71, 71))
+        self.pushButton_12.setGeometry(QtCore.QRect(190, 70, 71, 71))
         self.pushButton_12.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_12.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -269,12 +269,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_12.setText("")
         icon8 = QtGui.QIcon()
-        icon8.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_006.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon8.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_006.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_12.setIcon(icon8)
         self.pushButton_12.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_12.setObjectName("pushButton_12")
         self.pushButton_13 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_13.setGeometry(QtCore.QRect(10, 210, 71, 71))
+        self.pushButton_13.setGeometry(QtCore.QRect(10, 230, 71, 71))
         self.pushButton_13.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_13.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -294,12 +294,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_13.setText("")
         icon9 = QtGui.QIcon()
-        icon9.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_026 (1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon9.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_026 (1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_13.setIcon(icon9)
         self.pushButton_13.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_13.setObjectName("pushButton_13")
         self.pushButton_14 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_14.setGeometry(QtCore.QRect(10, 290, 71, 71))
+        self.pushButton_14.setGeometry(QtCore.QRect(10, 310, 71, 71))
         self.pushButton_14.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_14.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -319,12 +319,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_14.setText("")
         icon10 = QtGui.QIcon()
-        icon10.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_048.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon10.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_048.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_14.setIcon(icon10)
         self.pushButton_14.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_14.setObjectName("pushButton_14")
         self.pushButton_15 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_15.setGeometry(QtCore.QRect(100, 290, 71, 71))
+        self.pushButton_15.setGeometry(QtCore.QRect(100, 310, 71, 71))
         self.pushButton_15.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_15.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -344,12 +344,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_15.setText("")
         icon11 = QtGui.QIcon()
-        icon11.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_001.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon11.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_001.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_15.setIcon(icon11)
         self.pushButton_15.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_15.setObjectName("pushButton_15")
         self.pushButton_16 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_16.setGeometry(QtCore.QRect(190, 210, 71, 71))
+        self.pushButton_16.setGeometry(QtCore.QRect(190, 230, 71, 71))
         self.pushButton_16.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_16.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -369,12 +369,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_16.setText("")
         icon12 = QtGui.QIcon()
-        icon12.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_044.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon12.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_044.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_16.setIcon(icon12)
         self.pushButton_16.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_16.setObjectName("pushButton_16")
         self.pushButton_17 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_17.setGeometry(QtCore.QRect(100, 210, 71, 71))
+        self.pushButton_17.setGeometry(QtCore.QRect(100, 230, 71, 71))
         self.pushButton_17.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_17.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -394,12 +394,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_17.setText("")
         icon13 = QtGui.QIcon()
-        icon13.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_033.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon13.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_033.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_17.setIcon(icon13)
         self.pushButton_17.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_17.setObjectName("pushButton_17")
         self.pushButton_18 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_18.setGeometry(QtCore.QRect(190, 290, 71, 71))
+        self.pushButton_18.setGeometry(QtCore.QRect(190, 310, 71, 71))
         self.pushButton_18.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_18.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -419,12 +419,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_18.setText("")
         icon14 = QtGui.QIcon()
-        icon14.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_007.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon14.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_007.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_18.setIcon(icon14)
         self.pushButton_18.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_18.setObjectName("pushButton_18")
         self.pushButton_21 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_21.setGeometry(QtCore.QRect(10, 370, 71, 71))
+        self.pushButton_21.setGeometry(QtCore.QRect(10, 390, 71, 71))
         self.pushButton_21.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_21.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -444,12 +444,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_21.setText("")
         icon15 = QtGui.QIcon()
-        icon15.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_015.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon15.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_015.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_21.setIcon(icon15)
         self.pushButton_21.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_21.setObjectName("pushButton_21")
         self.pushButton_22 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_22.setGeometry(QtCore.QRect(100, 370, 71, 71))
+        self.pushButton_22.setGeometry(QtCore.QRect(100, 390, 71, 71))
         self.pushButton_22.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_22.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -469,12 +469,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_22.setText("")
         icon16 = QtGui.QIcon()
-        icon16.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_018.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon16.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_018.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_22.setIcon(icon16)
         self.pushButton_22.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_22.setObjectName("pushButton_22")
         self.pushButton_24 = QtWidgets.QPushButton(self.frame_4)
-        self.pushButton_24.setGeometry(QtCore.QRect(190, 370, 71, 71))
+        self.pushButton_24.setGeometry(QtCore.QRect(190, 390, 71, 71))
         self.pushButton_24.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_24.setStyleSheet("QPushButton{\n"
 "    border: none;\n"
@@ -495,7 +495,7 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_24.setText("")
         icon17 = QtGui.QIcon()
-        icon17.addPixmap(QtGui.QPixmap("icons/emoji/lunaVK_014.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon17.addPixmap(QtGui.QPixmap("../icons/emoji/lunaVK_014.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_24.setIcon(icon17)
         self.pushButton_24.setIconSize(QtCore.QSize(64, 64))
         self.pushButton_24.setObjectName("pushButton_24")
@@ -510,7 +510,7 @@ class Ui_MainWindow(object):
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
         self.pushButton_7 = QtWidgets.QPushButton(self.frame)
-        self.pushButton_7.setGeometry(QtCore.QRect(290, 460, 261, 41))
+        self.pushButton_7.setGeometry(QtCore.QRect(290, 490, 261, 41))
         font = QtGui.QFont()
         font.setPointSize(11)
         font.setBold(True)
@@ -535,7 +535,7 @@ class Ui_MainWindow(object):
         self.pushButton_7.setIcon(icon18)
         self.pushButton_7.setObjectName("pushButton_7")
         self.listWidget = QtWidgets.QListWidget(self.frame)
-        self.listWidget.setGeometry(QtCore.QRect(290, 10, 531, 341))
+        self.listWidget.setGeometry(QtCore.QRect(290, 40, 531, 341))
         font = QtGui.QFont()
         font.setPointSize(11)
         font.setBold(True)
@@ -570,6 +570,65 @@ class Ui_MainWindow(object):
         self.listWidget.setWordWrap(False)
         self.listWidget.setSelectionRectVisible(False)
         self.listWidget.setObjectName("listWidget")
+        self.frame_3 = QtWidgets.QFrame(self.frame)
+        self.frame_3.setGeometry(QtCore.QRect(0, 0, 831, 31))
+        self.frame_3.setStyleSheet("QFrame{\n"
+"    border-bottom-left-radius: 0px;\n"
+"    border-bottom-right-radius: 0px;\n"
+"    background-color: ;\n"
+"    background-color: rgb(85, 170, 0);\n"
+"}")
+        self.frame_3.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_3.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_3.setObjectName("frame_3")
+        self.pushButton_3 = QtWidgets.QPushButton(self.frame_3)
+        self.pushButton_3.setGeometry(QtCore.QRect(790, 0, 41, 31))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton_3.setFont(font)
+        self.pushButton_3.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_3.setStyleSheet("QPushButton{\n"
+"    color: white;\n"
+"    border: none;\n"
+"    border-top-right-radius: 7px;\n"
+"    background-color:  rgb(62, 125, 0);\n"
+"}\n"
+"\n"
+"QPushButton:hover{\n"
+"    background-color: rgb(47, 94, 0);\n"
+"}\n"
+"\n"
+"QPushButton:pressed{\n"
+"    color: rgb(31, 63, 0);\n"
+"}")
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_5 = QtWidgets.QPushButton(self.frame_3)
+        self.pushButton_5.setGeometry(QtCore.QRect(750, 0, 41, 31))
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton_5.setFont(font)
+        self.pushButton_5.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_5.setStyleSheet("QPushButton{\n"
+"    color: white;\n"
+"    border: none;\n"
+"    \n"
+"    background-color: ;\n"
+"    background-color: rgb(62, 125, 0);\n"
+"}\n"
+"\n"
+"QPushButton:hover{\n"
+"    background-color: rgb(47, 94, 0);\n"
+"}\n"
+"\n"
+"QPushButton:pressed{\n"
+"    color: rgb(31, 63, 0);\n"
+"}")
+        self.pushButton_5.setDefault(False)
+        self.pushButton_5.setObjectName("pushButton_5")
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -585,3 +644,5 @@ class Ui_MainWindow(object):
         self.label.setText(_translate("MainWindow", "Emoji"))
         self.pushButton_7.setText(_translate("MainWindow", "Настройки подключения"))
         self.listWidget.setSortingEnabled(False)
+        self.pushButton_3.setText(_translate("MainWindow", "X"))
+        self.pushButton_5.setText(_translate("MainWindow", "_"))
