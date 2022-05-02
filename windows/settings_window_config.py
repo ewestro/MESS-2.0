@@ -24,6 +24,14 @@ class Settings(QtWidgets.QWidget):
         self.setting.pushButton_6.clicked.connect(self.save_function)
         self.setting.pushButton_7.clicked.connect(lambda: self.close())
 
+        #Подргузка данных из .json
+        if os.path.exists(os.path.join("saved_parameters.json")):
+            with open(os.path.join("saved_parameters.json")) as file:
+                data = json.load(file)
+                self.setting.lineEdit_2.setText(data['server_ip'])
+                self.setting.lineEdit_3.setText(data['server_port'])
+                self.setting.lineEdit_4.setText(data['nickname'])
+
     # Функции перетаскивания, передвижения окна настроек
     def center(self):
         qr = self.frameGeometry()
@@ -50,7 +58,7 @@ class Settings(QtWidgets.QWidget):
 
         if 3 <= len(nickname) <= 20:
             with open(os.path.join("saved_parameters.json"), "w") as file:
-                save = {"server_ip": server_ip, "server_port": server_port, "nick": nickname}
+                save = {"server_ip": server_ip, "server_port": server_port, "nickname": nickname}
                 json.dump(save, file)
             # Закрываем окно с настройками
             self.close()
