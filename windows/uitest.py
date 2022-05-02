@@ -16,7 +16,7 @@ class Client(QtWidgets.QMainWindow):
         self.center()
 
         # Экземпляр класса для обработки соединений и сигналов
-        self.connect_monitor = message_monitor()
+        self.connect_monitor = Monitor()
 
         # Функционал кнопок
         self.ui.pushButton_3.clicked.connect(lambda: self.close())
@@ -28,7 +28,7 @@ class Client(QtWidgets.QMainWindow):
         setting_win = Settings(self, self.connect_monitor.mysignal)
         setting_win.show()
 
-
+    #Функции перетаскивания, передвижения окна настроек
     def center(self):
         qr = self.frameGeometry()
         cp = QtWidgets.QDesktopWidget().availableGeometry().center()

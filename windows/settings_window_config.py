@@ -1,7 +1,9 @@
+import os
+import json
 from windows.settings_window import *
 
 
-class message_monitor(QtCore.QThread):
+class Monitor(QtCore.QThread):
     mysignal = QtCore.pyqtSignal(list)
 
 
@@ -19,10 +21,10 @@ class Settings(QtWidgets.QWidget):
         self.center()
 
         # Обработчики кнопок
-        self.setting.pushButton_7.clicked.connect(lambda: self.close())
         self.setting.pushButton_6.clicked.connect(self.save_function)
+        self.setting.pushButton_7.clicked.connect(lambda: self.close())
 
-
+    # Функции перетаскивания, передвижения окна настроек
     def center(self):
         qr = self.frameGeometry()
         cp = QtWidgets.QDesktopWidget().availableGeometry().center()
@@ -40,15 +42,16 @@ class Settings(QtWidgets.QWidget):
         except AttributeError:
             pass
 
-
-    # Сохранить настройки пользователя + делаем проверку того,что вводит пользователь
+    # Сохраняем настройки пользователя + делаем проверку того,что вводит пользователь
     def save_function(self):
         server_ip = self.setting.lineEdit_2.text()
         server_port = self.setting.lineEdit_3.text()
-        nick = self.setting.lineEdit_4.text()
-        
-        if len(nick) >= 3 and len(nick) <= 20:
+        nickname = self.setting.lineEdit_4.text()
 
+        if 3 <= len(nickname) <= 20:
+            with open(os.path.join("saved_parameters.json"), "w") as file:
+                save = {"server_ip": server_ip, "server_port": server_port, "nick": nickname}
+                json.dump(save, file)
             # Закрываем окно с настройками
             self.close()
         else:
