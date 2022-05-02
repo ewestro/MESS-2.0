@@ -10,24 +10,41 @@ class Client(QtWidgets.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
+        #Убираем  верхний системный трей
+        self.setWindowFlag(QtCore.Qt.FramelessWindowHint)
+        self.setAttribute(QtCore.Qt.WA_TranslucentBackground)
+        self.center()
+
         # Экземпляр класса для обработки соединений и сигналов
         self.connect_monitor = message_monitor()
-        self.connect_monitor.mysignal.connect(self.signal_handler)
 
         # Функционал кнопок
         self.ui.pushButton_3.clicked.connect(lambda: self.close())
         self.ui.pushButton_5.clicked.connect(lambda: self.showMinimized())
         self.ui.pushButton_7.clicked.connect(self.settings_panel)
 
-    # Функционал открытия панели настроек
+    # Реализация открытия окна настроек
     def settings_panel(self):
         setting_win = Settings(self, self.connect_monitor.mysignal)
         setting_win.show()
 
-    # Обработчик сигналов из потока
-    def signal_handler(self, value: list):
-        if value[0] == "update_config":
-            self.update_config()
+
+    def center(self):
+        qr = self.frameGeometry()
+        cp = QtWidgets.QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
+
+    def mousePressEvent(self, event):
+        self.oldPos = event.globalPos()
+
+    def mouseMoveEvent(self, event):
+        try:
+            delta = QtCore.QPoint(event.globalPos() - self.oldPos)
+            self.move(self.x() + delta.x(), self.y() + delta.y())
+            self.oldPos = event.globalPos()
+        except AttributeError:
+            pass
 
 
 if __name__ == "__main__":
