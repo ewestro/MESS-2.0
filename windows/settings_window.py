@@ -78,7 +78,7 @@ class Ui_Form(object):
 "    background-color: #06401c;\n"
 "}")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("icons/settings/save.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("../icons/settings/save.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_6.setIcon(icon)
         self.pushButton_6.setObjectName("pushButton_6")
         self.pushButton_7 = QtWidgets.QPushButton(self.frame)
@@ -103,7 +103,7 @@ class Ui_Form(object):
 "    background-color: #06401c;\n"
 "}")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("icons/settings/back.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("../icons/settings/back.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_7.setIcon(icon1)
         self.pushButton_7.setObjectName("pushButton_7")
         self.lineEdit_4 = QtWidgets.QLineEdit(self.frame)

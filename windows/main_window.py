@@ -62,7 +62,7 @@ class Ui_MainWindow(object):
 "    background-color: #06401c;\n"
 "}")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("icons/settings/arrow.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("../icons/settings/arrow.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton.setIcon(icon)
         self.pushButton.setObjectName("pushButton")
         self.pushButton_2 = QtWidgets.QPushButton(self.frame)
@@ -87,7 +87,7 @@ class Ui_MainWindow(object):
 "    background-color: #06401c;\n"
 "}")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("icons/settings/connect.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("../icons/settings/connect.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_2.setIcon(icon1)
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_4 = QtWidgets.QPushButton(self.frame)
@@ -112,7 +112,7 @@ class Ui_MainWindow(object):
 "    background-color:#06401c;\n"
 "}")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("icons/settings/clear.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap("../icons/settings/clear.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_4.setIcon(icon2)
         self.pushButton_4.setObjectName("pushButton_4")
         self.frame_4 = QtWidgets.QFrame(self.frame)
@@ -531,7 +531,7 @@ class Ui_MainWindow(object):
 "    background-color: #06401c;\n"
 "}")
         icon18 = QtGui.QIcon()
-        icon18.addPixmap(QtGui.QPixmap("icons/settings/setting.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon18.addPixmap(QtGui.QPixmap("../icons/settings/setting.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_7.setIcon(icon18)
         self.pushButton_7.setObjectName("pushButton_7")
         self.listWidget = QtWidgets.QListWidget(self.frame)
@@ -638,9 +638,9 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.lineEdit.setPlaceholderText(_translate("MainWindow", "Сообщение"))
-        self.pushButton.setText(_translate("MainWindow", "Отправить"))
+        self.pushButton.setText(_translate("MainWindow", "Отправить сообщение"))
         self.pushButton_2.setText(_translate("MainWindow", "Подключиться к серверу"))
-        self.pushButton_4.setText(_translate("MainWindow", "Очистить "))
+        self.pushButton_4.setText(_translate("MainWindow", "Очистить все"))
         self.label.setText(_translate("MainWindow", "Emoji"))
         self.pushButton_7.setText(_translate("MainWindow", "Настройки подключения"))
         self.listWidget.setSortingEnabled(False)

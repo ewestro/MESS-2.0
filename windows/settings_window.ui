@@ -151,7 +151,7 @@ QPushButton:pressed{
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>icons/settings/save.png</normaloff>icons/settings/save.png</iconset>
+      <normaloff>../icons/settings/save.png</normaloff>../icons/settings/save.png</iconset>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_7">
@@ -193,7 +193,7 @@ QPushButton:pressed{
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>icons/settings/back.png</normaloff>icons/settings/back.png</iconset>
+      <normaloff>../icons/settings/back.png</normaloff>../icons/settings/back.png</iconset>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_4">

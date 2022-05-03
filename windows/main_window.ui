@@ -104,11 +104,11 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>Отправить</string>
+      <string>Отправить сообщение</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>icons/settings/arrow.png</normaloff>icons/settings/arrow.png</iconset>
+       <normaloff>../icons/settings/arrow.png</normaloff>../icons/settings/arrow.png</iconset>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_2">
@@ -150,7 +150,7 @@ QPushButton:pressed{
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>icons/settings/connect.png</normaloff>icons/settings/connect.png</iconset>
+       <normaloff>../icons/settings/connect.png</normaloff>../icons/settings/connect.png</iconset>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_4">
@@ -188,11 +188,11 @@ QPushButton:pressed{
 }</string>
      </property>
      <property name="text">
-      <string>Очистить </string>
+      <string>Очистить все</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>icons/settings/clear.png</normaloff>icons/settings/clear.png</iconset>
+       <normaloff>../icons/settings/clear.png</normaloff>../icons/settings/clear.png</iconset>
      </property>
     </widget>
     <widget class="QFrame" name="frame_4">
@@ -942,7 +942,7 @@ QPushButton:pressed{
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>icons/settings/setting.png</normaloff>icons/settings/setting.png</iconset>
+       <normaloff>../icons/settings/setting.png</normaloff>../icons/settings/setting.png</iconset>
      </property>
     </widget>
     <widget class="QListWidget" name="listWidget">
