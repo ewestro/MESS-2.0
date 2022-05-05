@@ -1,1 +1,5 @@
-{"server_ip": "222", "server_port": "33Test", "nickname": "1111"}
+{
+      "nick": "Tima",
+      "server_ip": "192.168.1.1",
+      "server_port": "5555"
+}
