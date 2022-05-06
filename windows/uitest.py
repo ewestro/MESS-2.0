@@ -1,6 +1,7 @@
 import sys
 from windows.main_window import *
 from windows.settings_window_config import *
+import socket
 
 
 # Создаем интерфейс программы и обработчики событий
@@ -27,7 +28,7 @@ class Client(QtWidgets.QMainWindow):
 
         # Обработчики для кнопок
         # self.ui.pushButton.clicked.connect(self.send_message)
-        # self.ui.pushButton_2.clicked.connect(self.connect_to_server)
+        self.ui.pushButton_2.clicked.connect(self.connect_to_server)
         self.ui.pushButton_3.clicked.connect(lambda: self.close())
         self.ui.pushButton_5.clicked.connect(lambda: self.showMinimized())
         self.ui.pushButton_7.clicked.connect(self.settings_panel)
@@ -107,9 +108,27 @@ class Client(QtWidgets.QMainWindow):
                 self.port = int(data['server_port'])
 
         # Обработчик сигналов
+
     def signal_handler(self, value):
         if value[0] == "update_config":
             self.update_config()
+
+    def connect_to_server(self):
+        self.update_config()  # Обновляем данные пользователя
+
+        if self.nick != None:
+            try:
+                self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                self.client.connect((self.ip, self.port))
+
+                self.connect_monitor.server_socket = self.client
+                self.connect_monitor.start()
+            except Exception as err:
+                message = "Нет соединения с сервером.\nПроверьте корректность введенных данных"
+                QtWidgets.QMessageBox.about(self, "Оповещение", message)
+        else:
+            message = "Для начала заполните данные во вкладке 'Настройки'"
+            QtWidgets.QMessageBox.about(self, "Оповещение", message)
 
     # Функции перетаскивания, передвижения окна настроек
     def center(self):
