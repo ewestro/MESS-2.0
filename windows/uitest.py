@@ -10,7 +10,7 @@ class Client(QtWidgets.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
-        #Убираем верхний системный трей
+        # Убираем верхний системный трей
         self.setWindowFlag(QtCore.Qt.FramelessWindowHint)
         self.setAttribute(QtCore.Qt.WA_TranslucentBackground)
         self.center()
@@ -23,8 +23,11 @@ class Client(QtWidgets.QMainWindow):
         self.ip = None
         self.port = None
         self.smile_type = None
+        self.connect_status = False
 
         # Обработчики для кнопок
+        # self.ui.pushButton.clicked.connect(self.send_message)
+        # self.ui.pushButton_2.clicked.connect(self.connect_to_server)
         self.ui.pushButton_3.clicked.connect(lambda: self.close())
         self.ui.pushButton_5.clicked.connect(lambda: self.showMinimized())
         self.ui.pushButton_7.clicked.connect(self.settings_panel)
@@ -46,7 +49,7 @@ class Client(QtWidgets.QMainWindow):
         self.ui.pushButton_22.clicked.connect(lambda: self.send_smile('14'))
         self.ui.pushButton_24.clicked.connect(lambda: self.send_smile('15'))
 
-    #Функция отправления смайлов
+    # Функция отправления смайлов
     def send_smile(self, smile_number: str):
         buttons = {
             '1': self.ui.pushButton_6,
@@ -94,7 +97,21 @@ class Client(QtWidgets.QMainWindow):
         setting_win = Settings(self, self.connect_monitor.mysignal)
         setting_win.show()
 
-    #Функции перетаскивания, передвижения окна настроек
+    # Обновление конфигурации
+    def update_config(self):
+        if os.path.exists(os.path.join("saved_parameters.json")):
+            with open(os.path.join("saved_parameters.json")) as file:
+                data = json.load(file)
+                self.nick = data['nick']
+                self.ip = data['server_ip']
+                self.port = int(data['server_port'])
+
+        # Обработчик сигналов
+    def signal_handler(self, value):
+        if value[0] == "update_config":
+            self.update_config()
+
+    # Функции перетаскивания, передвижения окна настроек
     def center(self):
         qr = self.frameGeometry()
         cp = QtWidgets.QDesktopWidget().availableGeometry().center()
