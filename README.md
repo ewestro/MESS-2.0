@@ -42,3 +42,7 @@ Qt Designer - кроссплатформенная свободная среда
 ## Команда проекта
 
 - [Эвелина Строгонова](tg://resolve?domain=ewe_stro) — Front-End Engineer
+
+### Демонстрация ПО
+
+![MESS-2.0](icons/mess.png)
